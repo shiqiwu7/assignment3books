@@ -1,0 +1,17 @@
+body{
+  background-color: azure;
+}
+table{
+  background-color: honeydew;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+
+img {
+  border-radius: 5px;
+  width: 200px;
+}

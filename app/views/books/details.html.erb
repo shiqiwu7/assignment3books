@@ -1,0 +1,10 @@
+<h1>Book Details</h1>
+
+<div>
+  <h2><%= @book['title'] %></h2>
+  <p><strong>Authors:</strong> <%= @book['authors'] %></p>
+  <p><strong>Description:</strong> <%= @book['description'] %></p>
+  <%= image_tag(@book['image'], alt: @book['title'], size: "200x300") %>
+</div>
+
+<%= link_to 'Back to Search', root_path %>
